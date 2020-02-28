@@ -1,0 +1,15 @@
+Package: betadistapp
+Type: Package
+Title: Shiny app for plotting Beta distributions
+Version: 1.0
+Authors@R: person("Aurélien", "Madouasse", email = "aurelien.madouasse@oniris-nantes.fr",
+                  role = c("aut", "cre"))
+Maintainer: Aurélien Madouasse <aurelien.madouasse@oniris-nantes.fr>
+Description: Shiny app for computing and evaluating the alpha and beta parameters of Beta distributions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6)
+Imports: shiny
+RoxygenNote: 7.0.2
